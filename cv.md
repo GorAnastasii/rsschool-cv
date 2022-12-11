@@ -25,7 +25,6 @@ I’m a first-year student of BSTU. At the moment I am developing a lot. My main
     }
 ```
 
-
 ## Work experience:
 Educational projects using HTML/CSS, JS, React, Node.js.
 
