@@ -8,7 +8,7 @@
 
 ## About Myself
 
-I’m a first-year student of BSTU. At the moment I am developing a lot. My main goal is to improve my skills, become a strong developer.
+I’m a first-year student of BSTU. At the moment I am developing a lot. My main goal is to improve my skills, become a strong developer. I'm sure rs school will give me a huge boost.
 
 ===
 ## Skills: 
