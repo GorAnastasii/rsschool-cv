@@ -1,5 +1,4 @@
 # Anastasia Gorodilina
-===
 
 ## Contacts:
 * **phone**: +375 44 7073725
@@ -10,14 +9,13 @@
 
 I’m a first-year student of BSTU. At the moment I am developing a lot. My main goal is to improve my skills, become a strong developer. I'm sure rs school will give me a huge boost.
 
-===
+
 ## Skills: 
 * HTML/CSS
 * JavaScript
 * React, Node.js
 * Figma
 * C++
-===
 
 ## Code Example:
 
