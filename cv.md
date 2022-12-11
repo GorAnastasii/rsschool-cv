@@ -20,9 +20,7 @@ I’m a first-year student of BSTU. At the moment I am developing a lot. My main
 ## Code Example:
 
 ```
-    const mergeArrays = (arr1, arr2) =>     {
-        return Array.from(new Set(arr1.concat(arr2).sort((a, b) => a-b)))
-    }
+    const mergeArrays = (arr1, arr2) => [...new Set([arr1, ...arr2].sort((a, b) => a - b))]
 ```
 
 ## Work experience:
