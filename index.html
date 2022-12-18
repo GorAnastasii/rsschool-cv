@@ -5,9 +5,85 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>CV</h1>
+    <header>
+        <div class="header-info">
+            <nav class="header-menu">
+                <ul>
+                    <li><a href="#personal">PERSONAL</a></li>
+                    <li><a href="#exper">EXPERIENCE</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-text">
+                <h1>Anastasia Gorodilina</h1>
+                <h2>Junior Front-end Developer</h2>
+            </div>
+        </div>
+        <div class="header-photo">
+        </div>
+    </header>
+
+    <main>
+        <div class="personal-info" id="personal">
+            <h2>Personal Information</h2>
+            <div class="contacts">
+                <h3>CONTACTS</h3>
+                <ul>
+                    <li><img src="images/mail.png" alt="email"><a href="#">nastenas714@gmail.com</a></li>
+                    <li><img src="images/telegram.png" alt="telegram"><a href="#">gor_anastasii</a></li>
+                    <li><img src="images/github.png" alt="github"><a href="https://github.com/GorAnastasii">GorAnastasii</a></li>
+                </ul>
+            </div>
+            <div class="about-me">
+                <h3>ABOUT ME</h3>
+                <p>I’m a first-year student of BSTU. At the moment I am developing a lot. My main goal is to improve my skills, become a strong developer. I’m sure rs school will give me a huge boost.</p>
+            </div>
+        </div>
+
+        <div class="experience" id="exper">
+            <h2>Experience</h2>
+            <div class="skills">
+                <ul>
+                    <li>HTML/CSS</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>Node.js</li>
+                    <li>Photoshop</li>
+                    <li>Figma</li>
+                    <li>C++</li>
+                </ul>
+            </div>
+
+            <div class="code-example">
+                <h3>CODE EXAMPLE</h3>
+                <code>
+                    const mergeArrays = (arr1, arr2) => [...new Set([...arr1, ...arr2].sort((a, b) => a - b))]
+                </code>
+            </div>
+
+            <div class="education">
+                <h3>EDUCATION</h3>
+                <p>Education at BSTU. Training in itgen.io.</p>
+            </div>
+
+            <div class="english">
+                <h3>ENGLISH LEVEL</h3>
+                <p>B1 (I have some speaking practice, but not with native speakers)</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p><a href="https://github.com/GorAnastasii">GitHub</a></p>
+        <p>2022</p>
+        <a href="https://rs.school/js-stage0/"><img src="images/rs.svg" alt="logo"></a>
+    </footer>
+
 </body>
 </html>
